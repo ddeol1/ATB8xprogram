@@ -8,9 +8,8 @@ public class Testcase1 extends Baseclass{
         super();
         this.setBrowser("edge",true);
     }
-    @Override
-    public void setBrowser(String browser, boolean isAuth){
-        super.setBrowser();
-    }
+//    public void setBrowser(String browser, boolean isAuth){
+//        super.setBrowser();
+//    }
 
 }
