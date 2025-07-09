@@ -10,4 +10,9 @@ public class Baseclass extends GrandBase{
     void closeBrowser(String browser){}
 
 
+//    @Override
+//    void takeScreenshot() {
+//        System.out.println("Taking screenshot");
+//
+//    }
 }

@@ -2,8 +2,12 @@ package javacourse_abstraction;
 
 // GrandBase class -> Base class -> ChromeTC, FirefoxTC
 
-public class GrandBase {
+abstract class GrandBase {
 
     //take screenshot
+     void takeScreenshot(){
+        System.out.println("Done aking Screenshot");
+    }
+
 
 }

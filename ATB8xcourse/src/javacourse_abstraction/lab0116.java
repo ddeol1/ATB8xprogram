@@ -6,6 +6,7 @@ public class lab0116 {
         ChromeTC a = new ChromeTC();
         a.openBrowser("Chrome");
         a.closeBrowser("Chrome");
+        a.takeScreenshot();
 
         FirefoxTC b = new FirefoxTC();
         b.openBrowser("Firefox");
